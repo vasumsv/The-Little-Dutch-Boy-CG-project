@@ -1,0 +1,51 @@
+﻿  cglabproject.cpp
+g:\cg\cglabproject\cglabproject\cglabproject.cpp(237): warning C4018: '<': signed/unsigned mismatch
+g:\cg\cglabproject\cglabproject\cglabproject.cpp(245): warning C4018: '<': signed/unsigned mismatch
+g:\cg\cglabproject\cglabproject\cglabproject.cpp(254): warning C4018: '<': signed/unsigned mismatch
+g:\cg\cglabproject\cglabproject\cglabproject.cpp(262): warning C4018: '<': signed/unsigned mismatch
+g:\cg\cglabproject\cglabproject\cglabproject.cpp(273): warning C4018: '<': signed/unsigned mismatch
+g:\cg\cglabproject\cglabproject\cglabproject.cpp(281): warning C4018: '<': signed/unsigned mismatch
+g:\cg\cglabproject\cglabproject\cglabproject.cpp(289): warning C4018: '<': signed/unsigned mismatch
+g:\cg\cglabproject\cglabproject\cglabproject.cpp(297): warning C4018: '<': signed/unsigned mismatch
+g:\cg\cglabproject\cglabproject\cglabproject.cpp(305): warning C4018: '<': signed/unsigned mismatch
+g:\cg\cglabproject\cglabproject\cglabproject.cpp(357): warning C4018: '<': signed/unsigned mismatch
+g:\cg\cglabproject\cglabproject\cglabproject.cpp(365): warning C4018: '<': signed/unsigned mismatch
+g:\cg\cglabproject\cglabproject\cglabproject.cpp(372): warning C4018: '<': signed/unsigned mismatch
+g:\cg\cglabproject\cglabproject\cglabproject.cpp(379): warning C4018: '<': signed/unsigned mismatch
+g:\cg\cglabproject\cglabproject\cglabproject.cpp(387): warning C4018: '<': signed/unsigned mismatch
+g:\cg\cglabproject\cglabproject\cglabproject.cpp(395): warning C4018: '<': signed/unsigned mismatch
+g:\cg\cglabproject\cglabproject\cglabproject.cpp(773): warning C4309: 'argument': truncation of constant value
+g:\cg\cglabproject\cglabproject\cglabproject.cpp(782): warning C4309: 'argument': truncation of constant value
+g:\cg\cglabproject\cglabproject\cglabproject.cpp(966): warning C4018: '<': signed/unsigned mismatch
+g:\cg\cglabproject\cglabproject\cglabproject.cpp(1005): warning C4018: '<': signed/unsigned mismatch
+g:\cg\cglabproject\cglabproject\cglabproject.cpp(1013): warning C4018: '<': signed/unsigned mismatch
+g:\cg\cglabproject\cglabproject\cglabproject.cpp(1020): warning C4018: '<': signed/unsigned mismatch
+g:\cg\cglabproject\cglabproject\cglabproject.cpp(1027): warning C4018: '<': signed/unsigned mismatch
+g:\cg\cglabproject\cglabproject\cglabproject.cpp(1035): warning C4018: '<': signed/unsigned mismatch
+g:\cg\cglabproject\cglabproject\cglabproject.cpp(1043): warning C4018: '<': signed/unsigned mismatch
+g:\cg\cglabproject\cglabproject\cglabproject.cpp(1051): warning C4018: '<': signed/unsigned mismatch
+g:\cg\cglabproject\cglabproject\cglabproject.cpp(1134): warning C4018: '<': signed/unsigned mismatch
+g:\cg\cglabproject\cglabproject\cglabproject.cpp(1175): warning C4018: '<': signed/unsigned mismatch
+g:\cg\cglabproject\cglabproject\cglabproject.cpp(1219): warning C4018: '<': signed/unsigned mismatch
+g:\cg\cglabproject\cglabproject\cglabproject.cpp(1227): warning C4018: '<': signed/unsigned mismatch
+g:\cg\cglabproject\cglabproject\cglabproject.cpp(1234): warning C4018: '<': signed/unsigned mismatch
+g:\cg\cglabproject\cglabproject\cglabproject.cpp(1241): warning C4018: '<': signed/unsigned mismatch
+g:\cg\cglabproject\cglabproject\cglabproject.cpp(1249): warning C4018: '<': signed/unsigned mismatch
+g:\cg\cglabproject\cglabproject\cglabproject.cpp(1257): warning C4018: '<': signed/unsigned mismatch
+g:\cg\cglabproject\cglabproject\cglabproject.cpp(1266): warning C4018: '<': signed/unsigned mismatch
+g:\cg\cglabproject\cglabproject\cglabproject.cpp(1322): warning C4018: '<': signed/unsigned mismatch
+g:\cg\cglabproject\cglabproject\cglabproject.cpp(1347): warning C4018: '<': signed/unsigned mismatch
+g:\cg\cglabproject\cglabproject\cglabproject.cpp(1411): warning C4018: '<': signed/unsigned mismatch
+g:\cg\cglabproject\cglabproject\cglabproject.cpp(1833): warning C4309: 'argument': truncation of constant value
+g:\cg\cglabproject\cglabproject\cglabproject.cpp(1842): warning C4309: 'argument': truncation of constant value
+g:\cg\cglabproject\cglabproject\cglabproject.cpp(2831): warning C4309: 'argument': truncation of constant value
+g:\cg\cglabproject\cglabproject\cglabproject.cpp(2840): warning C4309: 'argument': truncation of constant value
+g:\cg\cglabproject\cglabproject\cglabproject.cpp(3026): warning C4309: 'argument': truncation of constant value
+g:\cg\cglabproject\cglabproject\cglabproject.cpp(3035): warning C4309: 'argument': truncation of constant value
+g:\cg\cglabproject\cglabproject\cglabproject.cpp(3240): warning C4309: 'argument': truncation of constant value
+g:\cg\cglabproject\cglabproject\cglabproject.cpp(3249): warning C4309: 'argument': truncation of constant value
+g:\cg\cglabproject\cglabproject\cglabproject.cpp(3436): warning C4309: 'argument': truncation of constant value
+g:\cg\cglabproject\cglabproject\cglabproject.cpp(3445): warning C4309: 'argument': truncation of constant value
+g:\cg\cglabproject\cglabproject\cglabproject.cpp(3705): warning C4018: '<': signed/unsigned mismatch
+g:\cg\cglabproject\cglabproject\cglabproject.cpp(3717): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  cglabproject.vcxproj -> G:\CG\cglabproject\Debug\cglabproject.exe
