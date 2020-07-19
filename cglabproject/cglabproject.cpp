@@ -283,7 +283,7 @@ void first_window()
 		glutBitmapCharacter(GLUT_BITMAP_TIMES_ROMAN_24, str2[i]);
 	}
 
-	char str3[] = "VASU D                     4SF17CS182";
+	char str3[] = "VASU D                     USN";
 	glColor3f(1, 1, 1);
 	glRasterPos2f(10, 80);
 	for (i = 0;i < strlen(str3);i++)
@@ -291,7 +291,7 @@ void first_window()
 		glutBitmapCharacter(GLUT_BITMAP_TIMES_ROMAN_24, str3[i]);
 	}
 
-	char str4[] = "SUBRAMANYA R    4SF17CS159";
+	char str4[] = "SUBRAMANYA R    USN";
 	glColor3f(1, 1, 1);
 	glRasterPos2f(10, 30);
 	for (i = 0;i < strlen(str4);i++)
@@ -999,7 +999,7 @@ void fourth_window()
 	glMatrixMode(GL_MODELVIEW);
 	glLoadIdentity();
 
-	char str12[] = "Hans was so busy playing that he didn’t notice the sun setting.";
+	char str12[] = "Hans was so busy playing that he didnâ€™t notice the sun setting.";
 	glColor3f(1, 1, 1);
 	glRasterPos2f(250, 700);
 	for (i = 0;i < strlen(str12);i++)
@@ -1235,7 +1235,7 @@ void seventh_window()
 	{
 		glutBitmapCharacter(GLUT_BITMAP_TIMES_ROMAN_24, str21[i]);
 	}
-	char str22[] = "In the morning, a priest came along the road and heard Hans’ moans for help.";
+	char str22[] = "In the morning, a priest came along the road and heard Hansâ€™ moans for help.";
 	glColor3f(1, 1, 1);
 	glRasterPos2f(250, 550);
 	for (i = 0;i < strlen(str22);i++)
