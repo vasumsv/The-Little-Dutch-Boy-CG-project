@@ -1,4 +1,3 @@
-https://github.com/vasumsv/The-Little-Dutch-Boy-CG-project.git
 #  Computer Graphics mini project 
 
 The main objective of this project is to graphically illustrate the visualization of The Little Dutch Boy Who Saved The Holland with the help of built in graphics library functions using OpenGL as an environment.
@@ -40,7 +39,7 @@ The main objective of this project is to graphically illustrate the visualizatio
 
 
 
-# Have a Great Day
+# Have a Great Day :)
 
  
  
