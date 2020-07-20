@@ -71,11 +71,11 @@ void drawKidsShirtAndTrousers(GLfloat tx, GLfloat ty,
 	glVertex2f(120, 175);
 	glVertex2f(100, 200);
 	glVertex2f(50, 180);
-	glVertex2f(0, 200);
+	
 	glVertex2f(-20, 175);
 	glVertex2f(-35, 105);
 	glVertex2f(0, 100);
-	glEnd();
+	
 
 	// Left Trouser
 	glColor3ub(37, 107, 202);
@@ -84,7 +84,7 @@ void drawKidsShirtAndTrousers(GLfloat tx, GLfloat ty,
 	glVertex2f(0, -100);
 	glVertex2f(35, -100);
 	glVertex2f(65, 25);
-	glEnd();
+	
 
 	// Right Trouser
 	glBegin(GL_POLYGON);
@@ -94,7 +94,7 @@ void drawKidsShirtAndTrousers(GLfloat tx, GLfloat ty,
 	glVertex2f(100, 25);
 	glEnd();
 
-	glPopMatrix();
+	
 }
 // Function to Draw Circle
 void drawCircle(GLfloat x, GLfloat y,
@@ -109,7 +109,7 @@ void drawCircle(GLfloat x, GLfloat y,
 	glBegin(GL_POLYGON);
 	glColor3ub(r, g, b);
 	for (GLfloat i = 0; i < 360; i += 5)
-		glVertex2f(radius * sin(i * PI / 180), radius * cos(i * PI / 180));
+		glVertex2f(radius * sin(i *  / 180), radius * cos(i * PI / 180));
 	glEnd();
 
 	glPopMatrix();
@@ -119,7 +119,7 @@ void drawCircle(GLfloat x, GLfloat y,
 void drawSemiCircle(GLfloat tx, GLfloat ty,
 	GLfloat sx, GLfloat sy,
 	GLfloat r, GLfloat g, GLfloat b,
-	GLfloat radius,
+	
 	GLfloat start_angle, GLfloat end_angle) {
 	glPushMatrix();
 
@@ -129,7 +129,7 @@ void drawSemiCircle(GLfloat tx, GLfloat ty,
 	glBegin(GL_POLYGON);
 	glColor3ub(r, g, b);
 	for (GLfloat i = start_angle; i < end_angle; i += 5)
-		glVertex2f(radius * sin(i * PI / 180), radius * cos(i * PI / 180));
+		
 	glEnd();
 
 	glPopMatrix();
@@ -225,7 +225,7 @@ void first_window()
 	glClearColor(0, 0, 0, 0);
 	glClear(GL_COLOR_BUFFER_BIT);
 	glMatrixMode(GL_PROJECTION);
-	glLoadIdentity();
+	
 	gluOrtho2D(0, 1000, 0, 1000);
 	glMatrixMode(GL_MODELVIEW);
 	glLoadIdentity();
@@ -533,7 +533,7 @@ void third_window()
 	glBegin(GL_POLYGON);
 	glColor3f(0, 0.6, 0);
 	glVertex2f(600, 700 + 50);
-	glVertex2f(1000, 700 + 50);
+	
 	glVertex2f(800, 900);
 	glEnd();
 
@@ -561,7 +561,7 @@ void third_window()
 	gluOrtho2D(0, 1000, 0, 1000);
 	for (i = 0;i < 360;i++)
 	{
-		theta = i * (3.142 / 180);
+		
 		glVertex2f(630 + 40 * cos(theta), 920 + 65 * sin(theta));
 	}
 
@@ -638,7 +638,7 @@ void third_window()
 	glBegin(GL_POLYGON);
 	glColor3f(0.6, 0.9, 1);
 	glVertex2f(250, 300);
-	glVertex2f(250, 400);
+
 	glVertex2f(280, 400);
 	glVertex2f(280, 300);
 	glEnd();
@@ -693,7 +693,7 @@ void third_window()
 	glBegin(GL_POLYGON);
 	glColor3f(0.36, 0.25, 0.20);
 	glVertex2f(0, 0);
-	glVertex2f(0, 149);
+	
 	glVertex2f(1000, 149);
 	glVertex2f(1000, 0);
 	glEnd();
@@ -705,7 +705,7 @@ void third_window()
 			//back hair
 	glBegin(GL_POLYGON);
 	glColor3ub(0, 0, 0);
-	glVertex2i(148 - 100, 186);
+	
 	glVertex2i(192 - 100, 186);
 	glVertex2i(186 - 100, 218);
 	glVertex2i(155 - 100, 218);
@@ -748,7 +748,7 @@ void third_window()
 	//////////////////////////////skirt
 	glBegin(GL_POLYGON);
 	glColor3f(1, 0.3, 0.7);
-	glVertex2f(50, 90);
+	
 	glVertex2f(55, 180);
 	glVertex2f(85, 180);
 	glVertex2f(90, 90);
@@ -874,8 +874,7 @@ void third_window()
 
 	//left hand skirt
 	glBegin(GL_POLYGON);
-	glColor3f(1, 0.3, 0.7);
-	glVertex2f(40, 170);
+	
 	glVertex2f(43, 150);
 	glVertex2f(55, 160);
 	glVertex2f(55, 180);
@@ -1058,7 +1057,7 @@ void fourth_window()
 
 void key2(unsigned char key, int x, int y)
 {
-	if (key == 'b')                                                         //Key b is pressed
+	if (key == '')                                                         //Key b is pressed
 	{
 		glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB | GLUT_DEPTH);
 		glutInitWindowSize(1350, 695);
@@ -1295,7 +1294,6 @@ void key7(unsigned char key, int x, int y)
 	{
 		glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB | GLUT_DEPTH);
 		glutInitWindowSize(1350, 695);
-		glutInitWindowPosition(0, -300);
 		glutDestroyWindow(id7);
 		id8 = glutCreateWindow("THE LITTLE DUTCH BOY WHO SAVED THE HOLLAND");
 		glutDisplayFunc(nineth_window);
@@ -1644,7 +1642,6 @@ void tenth_window()
 	glBegin(GL_POLYGON);
 	glColor3ub(100, 10, 10);
 	glVertex2i(450 - 220 - 170 + 250 + 7, 105 - 20);
-	glVertex2i(450 - 220 - 170 + 250 + 7, 96 - 20);
 	glVertex2i(468 - 220 - 170 + 250 + 7, 96 - 20);
 	glVertex2i(460 - 220 - 170 + 250 + 7, 105 - 20);
 	glEnd();
@@ -1874,7 +1871,7 @@ void priest()
 
 
 		glBegin(GL_POLYGON);
-		glColor3ub(255, 191, 128);        //skin color
+		       //skin color
 
 		gluOrtho2D(0, 300, 0, 300);
 		for (i = 0;i < 360;i++)
@@ -1988,7 +1985,6 @@ void priest()
 		glColor3ub(240, 184, 128);
 		glVertex2i(465 + 7 - 220 - 170 + move, 168 + 20);
 		glVertex2i(475 + 7 - 220 - 170 + move, 153 + 20);
-		glVertex2i(467 + 7 - 220 - 170 + move, 154 + 20);
 		glVertex2i(462 + 7 - 220 - 170 + move, 162 + 20);
 		glEnd();
 
@@ -2012,7 +2008,6 @@ void priest()
 		glBegin(GL_POLYGON);
 		glVertex2i(415 - 220 - 170 + move, 168 + 20);
 		glVertex2i(405 - 220 - 170 + move, 153 + 20);
-		glVertex2i(413 - 220 - 170 + move, 154 + 20);
 		glVertex2i(418 - 220 - 170 + move, 162 + 20);
 		glEnd();
 
@@ -2064,7 +2059,6 @@ void priest()
 		glVertex2i(420 - 220 - 170 + move, 105 - 20);
 		glVertex2i(430 - 220 - 170 + move, 105 - 20);
 		glVertex2i(433 - 220 - 170 + move, 105 - 20);
-		glVertex2i(450 - 220 - 170 + move + 7, 105 - 20);
 		glVertex2i(460 - 220 - 170 + move + 7, 105 - 20);
 		glEnd();
 
@@ -2404,7 +2398,7 @@ void drawing_night()
 	glClear(GL_COLOR_BUFFER_BIT);
 	glMatrixMode(GL_PROJECTION);
 	glLoadIdentity();
-	gluOrtho2D(0, 1000, 0, 1000);
+	
 	glMatrixMode(GL_MODELVIEW);
 
 
@@ -2586,7 +2580,7 @@ void drawing()
 	glVertex2f(300, 400);
 	glVertex2f(300, 350);
 	glVertex2f(400, 400);
-	glVertex2f(400, 350);
+	(400, 350);
 	glVertex2f(500, 400);
 	glVertex2f(500, 350);
 	glVertex2f(600, 400);
@@ -2673,7 +2667,7 @@ void boy(int t)
 		glutSolidTorus(7, 7, 300, 90);
 		glPopMatrix();
 
-		glColor3ub(0, 0, 0);
+		
 		glBegin(GL_LINES);
 		glVertex2i(540 - 300 + m - t, 195);
 		glVertex2i(540 - 300 + m - t, 190); //nose
@@ -3076,7 +3070,7 @@ void dike_boy(int x)
 
 
 
-		glColor3ub(255, 191, 128);
+		 
 		glPushMatrix();
 		glTranslatef(540 - 300 + n - x, 195, 0);
 		glutSolidTorus(7, 7, 300, 90);
@@ -3123,7 +3117,7 @@ void dike_boy(int x)
 		// eyes
 		glBegin(GL_POLYGON);
 		glVertex2i(533 - 300 + n - x, 198);
-		glVertex2i(535 - 300 + n - x, 198);
+		
 		glVertex2i(535 - 300 + n - x, 196);
 		glVertex2i(533 - 300 + n - x, 196);
 		glEnd();
@@ -3664,7 +3658,6 @@ void boy_finger(int a, int b)
 	//shoe left
 	glBegin(GL_POLYGON);
 	glColor3ub(100, 10, 10);
-	glVertex2i(530 - 220 + a, 105 + b);
 	glVertex2i(530 - 220 + a, 96 + b);
 	glVertex2i(512 - 220 + a, 96 + b);
 	glVertex2i(520 - 220 + a, 105 + b);
@@ -3691,7 +3684,6 @@ void final_window()
 {
 
 	glClearColor(0, 0, 0, 0);
-	glClear(GL_COLOR_BUFFER_BIT);
 	glMatrixMode(GL_PROJECTION);
 	glLoadIdentity();
 	gluOrtho2D(0, 1000, 0, 1000);
